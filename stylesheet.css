@@ -18,6 +18,7 @@
 
 .logo_container {
 	height:100%;
+	margin-left: 2%;
 	display: table;
 	float: left;
 }
