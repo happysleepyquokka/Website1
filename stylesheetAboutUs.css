@@ -89,7 +89,7 @@
 }
 
 .active, .accordion:hover {
-	background-color: #ffebe6;
+	background-color: #ffdccc;
 	width: 90%;
 }
 
