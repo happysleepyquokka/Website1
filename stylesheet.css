@@ -57,17 +57,46 @@
 	margin-left: 10%;
 	margin-right: 10%;
 	text-align: center;
+	color: #1a0800;
 	font-family: "Helvetica", Arial, sans-serif;
 	
 }
 
+.homeImage {
+	/* darken image background */
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+	url("terracottaVases1.png");
+	position: relative;
+	/* set a specific height */
+	height: 50%;
+	/* position and scale image to fit all screens*/
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.homeImageText {
+
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-family: "Courier New", Lucida Console, Monospace;
+	font-size: 20px;
+}
+
+
 .footer {
-  position: fixed;
+  position: relative;
   display: block;
   vertical-align: middle;
   text-align: center;
   left: 0;
   bottom: 0;
+  margin-top: 2%;
   height: 75px;
   width: 100%;
   background-color: #cc2900;
