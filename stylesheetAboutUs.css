@@ -74,46 +74,34 @@
   	font-size: 18px;
 }
 
-.hero-image {
-	/* darken image background */
-	/*background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))*//*,
-	url("terracottaVases1.png")*/;
-	position: relative;
-	/* set a specific height */
-	height: 50%;
-	/* position and scale image to fit all screens*/
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-
-}
-
-.hero-text {
-	text-align: center;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	color: white;
-	font-family: "Courier New", Lucida Console, Monospace;
-	font-size: 40px;
-}
-
-.hero-text button {
-	border: none;
-	outline: 0;
-	display: inline-block;
-	padding: 10px 25px;
-	color: #331000;
-	font-family: "Courier New", Lucida Console, Monospace;
-	background-color: white;
-	text-align: center;
+.accordion {
+	background-color: #ffcbb3;
+	color: #1a0800;
 	cursor: pointer;
+	padding: 18px;
+	width: 90%;
+	text-align: left;
+	border: none;
+	outline: none;
+	transition: 0.4s;
+  	font-family: "Courier New", Lucida Console, Monospace;
+  	font-size: 18px;
 }
 
-.hero-text button:hover {
-	background-color: #331000;
-	color: white;
+.active, .accordion:hover {
+	background-color: #ffdccc;
+	width: 90%;
+}
+
+.panel {
+	padding: 0 18px;
+	background-color: #ffebe6;
+	width: 85%;
+	margin-left: 1%;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	font-family: "Courier New", Lucida Console, Monospace;
 }
 
 .footer {
