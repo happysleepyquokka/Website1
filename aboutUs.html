@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="stylesheetAboutUs.css">
+
+<head>
+	<style>
+		
+		body{
+			background-color: #ffebe6;
+		}
+
+		h2{
+			margin-left: 1%;
+			margin-top: 2%;
+			font-size: 30px;
+			color: #1a0800;
+  			font-family: "Courier New", Lucida Console, Monospace;
+		}
+
+		h3{
+			margin-left: 1%;
+			margin-top: 3%;
+			font-size: 25px;
+			color: #1a0800;
+  			font-family: "Courier New", Lucida Console, Monospace;
+		}
+
+	</style>
+
+	<title>About Us - Mellen's </title>
+</head>
+<body>
+	<div class = "header">
+		<div class = "logo_container">
+
+			<h1><font size = "+5">Mellen's</font></h1>
+
+		</div>
+
+		<ul class = "navigation">
+
+			<a href="index.html"><li>Home</li></a>		
+			<a href="shop.html"><li>Shop</li></a>	
+			<a href="aboutUs.html"><li>About Us</li></a>
+
+		</ul>
+
+	</div>
+
+	<h2>Hi, welcome to Mellens.</h2>
+
+	<div class = "para1">
+		
+		<p>We are a small, independent company based in a small village in Tuscany who create exclusive pieces of home and table ware to bring uniqueness and life to your home. Each piece is handcrafted ensuring only the highest quality is delivered straight to your door. </p>
+
+	</div>
+
+	<h3>FAQs</h3>
+
+	<button class="accordion">Are your pieces food safe?</button>
+	<div class="panel">
+		<div class="para1"></div>
+		<p>Yes they are! We use non-toxic...</p>
+	</div>
+
+	<button class="accordion">Do you ship internationally?</button>
+	<div class="panel">
+		<div class="para1"></div>
+		<p>We currently ship within Europe but are hoping to expand our selction in the next few months. </p>
+	</div>
+
+	<button class="accordion">Do you do custom pieces?</button>
+	<div class="panel">
+		<div class="para1"></div>
+		<p>As each piece is influenced by the artist and a physical image of their expression, we do not take any custom requests as we would not want any item we put out there to be ingenuine.</p>
+	</div>
+
+	<button class="accordion">Can you gift wrap an item?</button>
+	<div class="panel">
+		<div class="para1"></div>
+		<p>We are more than happy to gift wrap an item before shipping it off. Just make sure you click the 'Gift Wrap' option at checkout and use the address you wish the product to be sent to is in the shipping address.</p>
+	</div>
+
+	<h3>Contact Us</h3>
+
+	<div class = "para1">
+
+		<p>			
+		If you have any more questions or would like to get a hold of us, you can either give us a call, send us an e-mail or drop us a DM on instagram:
+		<br>
+		<br>
+
+		Telephone: 01630 656 494
+		<br>
+		E-mail: mellensartifice@gmail.com
+		<br>
+		Instagram handle: @mellensartifice
+		</p>
+		
+	</div>
+
+
+	<div class="footer">
+
+		<p>
+			Contact Us
+			Where to Find Us
+			<br>
+			Disclaimer: I DO NOT own any of the images displayed on this website.
+		</p>		
+
+	</div>
+
+	<script type="text/javascript">
+		
+		var acc = document.getElementsByClassName("accordion");
+		var i;
+
+		for (i = 0; i < acc.length; i++) {
+			acc[i].addEventListener("click", function(){
+				this.classList.toggle("active");
+				var panel = this.nextElementSibling;
+
+				if(panel.style.maxHeight){
+					panel.style,maxHeight = null;
+				}else{
+					panel.style.maxHeight = panel.scrollHeight + "px";
+				}
+			});
+		}
+
+	</script>
+	
+</body>
+</html>
