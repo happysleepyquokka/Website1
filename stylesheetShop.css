@@ -106,7 +106,7 @@
 	position: absolute;
 	top: 45%;
 	left: 20%;
-	transform: translate(-10%, -25%);
+	transform: translate(10%, -25%);
 	color: white;
 	font-family: "Courier New", Lucida Console, Monospace;
 	font-size: 20px;
@@ -158,7 +158,7 @@
 	position: absolute;
 	top: 45%;
 	left: 80%;
-	transform: translate(-90%, -25%);
+	transform: translate(-120%, -25%);
 	color: white;
 	font-family: "Courier New", Lucida Console, Monospace;
 	font-size: 20px;
